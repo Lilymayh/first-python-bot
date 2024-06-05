@@ -8,7 +8,16 @@ chatbot = ChatBot('First ChatBot')
 trainer = ChatterBotCorpusTrainer(chatbot)
 
 # Train the chatbot based on the english corpus
-trainer.train("chatterbot.corpus.english")
+trainer.train('chatterbot.corpus.english')
 
-# Get a response to an input statement
-print(chatbot.get_response("hi"))
+# Use loop to continue conversation
+while True:
+	user_input = input('Toi: ')
+
+	# To stop the conversation
+	if user_input.lower() == 'au rivoir':
+		break
+	# Get a response to an input statement
+	response = chatbot.get_response(user_input)
+
+	print('Moi:', response)
