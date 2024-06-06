@@ -4,8 +4,8 @@ This project is a simple chatbot, built using the ChatterBot library in Python. 
 
 ## Requirements
 
-python 3.6 
-pip
+- python 3.6 
+- pip
 
 ## Installation
 
