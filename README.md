@@ -9,9 +9,9 @@ This project is a simple chatbot, built using the ChatterBot library in Python. 
 
 ## Installation
 
-git clone https://github.com/Lilymayh/first-python-bot
-cd first-python-bot
-pip install -r requirements.txt
+1. git clone https://github.com/Lilymayh/first-python-bot
+2. cd first-python-bot
+3. pip install -r requirements.txt
 
 ## Usage
 	
